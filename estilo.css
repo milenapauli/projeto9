@@ -1,0 +1,284 @@
+:root {
+    --cor-site: #ffffff;
+    text-align: center;
+}
+
+html {
+    font-family: 'Yeseva One', cursive;
+    font-size: 16px;
+    background-image: url(https://img.freepik.com/fotos-premium/o-sol-e-nove-planetas-do-nosso-sistema-orbitando-o-caminho-de-recorte-incluido-para-os-objetos-em-primeiro-plano_613961-341.jpg?size=626&ext=jpg&ga=GA1.2.1073840699.1688599870&semt=ais);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: auto;
+
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+/*.maxWidth {
+    max-width: 90em;
+    /*1440px*/
+
+.header {
+    text-align: center;
+    margin: 0;
+    background-color: black
+}
+
+.header_logo {
+    width: 7.6em;
+    height: 100%;
+    margin: 1em;
+}
+
+.header_nav {
+    background-color: #233333;
+    color: white;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+}
+
+.header_nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .8em;
+}
+
+.header_nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+}
+
+.header_nav a:hover {
+    background-color: rgba(185, 203, 244, 0.91);
+    color: #0D0D0D;
+
+}
+
+#hamburguer {
+    background-color: #3A566C;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 0.3em;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.header_nav {
+    display: none;
+}
+
+.header_nav.show {
+    display: block;
+}
+
+.botao {
+    background-color: rgba(7, 7, 7, 0.781);
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 1em;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30vh;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.maxWidth a:hover{
+    background-color: rgba(255, 255, 255, 0.768);
+    color: #000000;
+}
+
+ul {
+    margin: 0;
+}
+
+.icone_link {
+    width: 3em;
+}
+
+@media screen and (min-width: 48em) {
+    #hamburguer {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: initial;
+    }
+
+    .header_logo {
+        margin-left: 2em;
+        background-color: initial;
+    }
+
+    .header_nav {
+        background-color: initial;
+        display:block
+    }
+
+    .header_nav ul {
+        margin-right: 2em;
+        font-size: .9em;
+    }
+
+    .header_nav li {
+        display: inline-block;
+        background-color: initial;
+    }
+
+    .header_nav a {
+        display: inline-block;
+        background-color: initial;
+        border-radius: 5px;
+    }
+
+    /*fundo de quando clica no menu*/
+    .header_nav a:hover {
+        background-color: rgba(69, 113, 171, 0.807);
+        color: #ffffff;
+    }
+
+    .header {
+        text-align: center;
+        margin: auto;
+        background-color: #0D0D0D;
+    }
+}
+
+.all div {
+    text-align: center;
+    margin: auto;
+    height: 100%;
+    }
+
+.maxWidth {
+    max-width: 100%;
+    /*1440px*/
+}
+
+title {
+    margin-top: 0;
+    padding-top: .5em;
+    color: var(--cor-site);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: rgb(255, 255, 255);
+    font-family: 'Yeseva One', cursive;    
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.paragrafo {
+    font-size: 1.1em;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px rgb(0, 0, 0);
+}
+
+
+@media screen and (min-width: 48em) {
+    /*768px maior que*/
+
+    /* .trailer{
+       /* background-image: url(https://img.freepik.com/fotos-premium/vista-da-terra-a-partir-da-lua-elementos-desta-imagem-fornecidos-pela-nasa_180633-3296.jpg?size=626&ext=jpg&ga=GA1.1.1073840699.1688599870&semt=ais);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: initial;
+    }*/
+
+    .paragrafo {
+        margin-bottom: 2em;
+    }
+
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    width: 100%;
+    position: absolute;
+}
+
+p{
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin:0;
+    padding-top: .10rem;
+    color: #ffffff;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header_f {
+    color: rgb(234, 234, 234);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7em;
+
+}
+
+.header_f li {
+    margin-right: 2em;
+}
+
+.header_f a {
+    display: block;
+}
+
+.icone_link {
+    width: 1.4em;
+    margin: 0;
+
+}
+
+.icone_h_link {
+    width: 2.5em;
+    margin: 0;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .header_f {
+        flex-direction: column;
+        /* Muda para coluna */
+        justify-content: center;
+        gap:1.5em;
+    }
+}
+
+
